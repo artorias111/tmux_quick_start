@@ -34,10 +34,10 @@ Here's some tmux commands you'll use often :
 4. split pane bottom : `prefix+]`
 5. close current pane (if there's multiple panes) - `prefix+x`
 
-# The tmuxconfig file
+# The tmux.config file (located in `~/.tmux.conf`)
 - Just like other great unix tools such as `vim`, there's a tmux config file which can be used to customize `tmux` as much as you like.
-- One important tmuxconfig entry is enabling mouse actions (called the "mouse mode", which allows you to click between different tmux panes instead of using the keybindings every time you want to switch to a different pane (which is a huge win)
-- Most of the customizations I've done are changes to the keybindings, and prettier looking bars at the bottom to display the current tmux session status (such as the name, and even the weather!). My tmxconf file is attached in this repository if you're interested in taking a look.
+- One important tmux.conf entry is enabling mouse actions (called the "mouse mode", which allows you to click between different tmux panes instead of using the keybindings every time you want to switch to a different pane (which is a huge win)
+- Most of the customizations I've done are changes to the keybindings, and prettier looking bars at the bottom to display the current tmux session status (such as the name, and even the weather!). My tmux.conf file is attached in this repository if you're interested in taking a look.
 # Typical tmux use case examples:
 Here are some examples of where you can use tmux to get your job done
 - Run a command that can take hours to run, and close the session and resume your other activities (tmux will be running in the background, hence the process is always running). Reattach the session anytime to monitor the progress and check if the process has stopped due to errors of some kind.
