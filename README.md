@@ -45,7 +45,7 @@ Here are some examples of where you can use tmux to get your job done
 <img width="1440" alt="image" src="https://github.com/artorias111/tmux_quick_start/assets/48955393/add294f9-210d-48d4-817a-d3db821d01d4">
 
 
-	- The best part of this setup is that if you want to quit and come back to it later, it's as easy as detaching and reattaching the same session anytime later, and it's going to exist in the same state when you reattach (even if you haven't saved the changes in your editor!)
+- The best part of this setup is that if you want to quit and come back to it later, it's as easy as detaching and reattaching the same session anytime later, and it's going to exist in the same state when you reattach (even if you haven't saved the changes in your editor!)
 
 
 For more information, look at https://medium.com/hackernoon/a-gentle-introduction-to-tmux-8d784c404340
