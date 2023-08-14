@@ -45,6 +45,8 @@ Here are some examples of where you can use tmux to get your job done
 <img width="1440" alt="image" src="https://github.com/artorias111/tmux_quick_start/assets/48955393/add294f9-210d-48d4-817a-d3db821d01d4">
 
 
+- I view my code in the long left pane, view any data needed on the top right, and run the python script in the bottom left. I can `detach` this setup, return to my normal terminal and re`attach` this whenever I want (even if the code in vim is unsaved, it's maintained in the same state that you `detach` it in).
+	- Note that this is how I do it, there's certainly more creative ways to use code editors with tmux, whatever works for you!
 - The best part of this setup is that if you want to quit and come back to it later, it's as easy as detaching and reattaching the same session anytime later, and it's going to exist in the same state when you reattach (even if you haven't saved the changes in your editor!)
 
 
