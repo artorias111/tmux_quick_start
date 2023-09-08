@@ -32,7 +32,7 @@ Here's some tmux commands you'll use often :
 4. split pane bottom : `prefix+]`
 5. close current pane (if there's multiple panes) - `prefix+x`
 6. View all tmux sessions you've created - `tmux ls`
-7. Kill a tmux session (end it for good) - `tmux kill-session -t <session_name>`
+7. Kill a tmux session named 'oregon' (end it for good) - `tmux kill-session -t oregon`
 
 ## The tmux.config file (located in `~/.tmux.conf`)
 - Just like other Unix tools such as `vim`, there's a tmux config file which can be used to customize `tmux` as much as you like.
