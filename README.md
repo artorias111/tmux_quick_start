@@ -41,7 +41,7 @@ Here's some tmux commands you'll use often :
 ## Typical tmux use case examples:
 Here are some examples of where you can use tmux to get your job done
 - Run a command that can take hours to run, and close the session and resume your other activities (tmux will be running in the background, hence the process is always running). Reattach the session anytime to monitor the progress and check if the process has stopped due to errors of some kind.
-- If you're working on a multicode project : I know emacs (vim, to a lesser extent) have a lot of potential extensions and settings to be used as a fully blown IDE, but here's how I mix tmux and vim to develop longer codes in a remote session: 
+- If you're working on a multicode project : If I'm not wrong, emacs (vim, to a lesser extent) has a ton of extensions and settings to be used as a full-blown IDE, but here's how I mix tmux and vim to develop longer codes in a remote session: 
 <img width="1440" alt="image" src="https://github.com/artorias111/tmux_quick_start/assets/48955393/add294f9-210d-48d4-817a-d3db821d01d4">
 
 
